@@ -102,9 +102,9 @@
 				description: localize("Opens an image from the web."),
 			},
 			{
-				item: localize("&Upload To Imgur"),
+				item: localize("&Mint to Marketplace"),
 				speech_recognition: [
-					"upload to imgur", "upload image to imgur", "upload picture to imgur",
+					"mint to marketplace", "mint image to marketplacer", "mint picture to marketplace",
 				],
 				action: () => {
 					// include the selection in the saved image
@@ -116,7 +116,7 @@
 						});
 					});
 				},
-				description: localize("Uploads the active document to Imgur"),
+				description: localize("Mints the the active document to the tezospaint Marketplace"),
 			},
 			MENU_DIVIDER,
 			{

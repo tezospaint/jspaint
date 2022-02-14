@@ -4,7 +4,7 @@ function show_imgur_uploader(blob) {
 	if ($imgur_window) {
 		$imgur_window.close();
 	}
-	$imgur_window = $DialogWindow().title("Upload To Imgur").addClass("horizontal-buttons");
+	$imgur_window = $DialogWindow().title("Mint to Marketplace").addClass("horizontal-buttons");
 
 	const $preview_image_area = $(E("div")).appendTo($imgur_window.$main).addClass("inset-deep");
 	const $imgur_url_area = $(E("div")).appendTo($imgur_window.$main);

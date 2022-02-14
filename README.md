@@ -41,7 +41,7 @@ I want to bring good old Paint into the modern era.
   * **View > Fullscreen** to toggle fullscreen mode, nice for small screens
 * Web features
   * **File > Load From URL...** to open an image from the Web.
-  * **File > Upload to Imgur** to upload the current image to Imgur.
+  * **File > Mint the current image to the tezospaint marketplace** to mint the current image to the tezospaint marketplace.
   * **Paste** supports loading from URLs.
   * Create links to open an image from the web, such as <https://jspaint.app/#load:https://i.imgur.com/zJMrWwb.png> to start with an isometric grid template.
   * Rudimentary **multi-user** collaboration support.
